@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4713ce6dd2084c7b0ec2c598c1582620 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4713ce6dd2084c7b0ec2c598c1582620" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4713ce6dd2084c7b0ec2c598c1582620 = L.map(
+                "map_4713ce6dd2084c7b0ec2c598c1582620",
+                {
+                    center: [23.262500000000003, 120.99625],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a48399a1cbad01b3f7e3c4c3598e4fa9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a48399a1cbad01b3f7e3c4c3598e4fa9.addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var marker_9a3d827c0640da224ac8cb5da4632c92 = L.marker(
+                [22.36, 120.99],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_e780ddbc67f9a7c93152cc0a817c9628 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-exclamation",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f29d4b078fbd797081278ad38e322b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_678594a1a950a0f81a099f8d2aaa581d = $(`<div id="html_678594a1a950a0f81a099f8d2aaa581d" style="width: 100.0%; height: 100.0%;">深度: 10.4km 時間: 2025-03-19 13:30:39</div>`)[0];
+                popup_1f29d4b078fbd797081278ad38e322b6.setContent(html_678594a1a950a0f81a099f8d2aaa581d);
+            
+        
+
+        marker_9a3d827c0640da224ac8cb5da4632c92.bindPopup(popup_1f29d4b078fbd797081278ad38e322b6)
+        ;
+
+        
+    
+    
+            marker_9a3d827c0640da224ac8cb5da4632c92.bindTooltip(
+                `<div>
+                     臺東縣政府南南西方  46.8  公里 (位於臺東縣近海) 芮氏規模: 4.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9a3d827c0640da224ac8cb5da4632c92.setIcon(icon_e780ddbc67f9a7c93152cc0a817c9628);
+            
+    
+            var marker_66b0f35ca14a1e0939f8969358d3a671 = L.marker(
+                [22.88, 121.09],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_b230cbcd46eb1caa3da4d742708bb4d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f304438a4e72c3efcd300e3b6a083bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c40b8963ca4434d88916df8d92e47af1 = $(`<div id="html_c40b8963ca4434d88916df8d92e47af1" style="width: 100.0%; height: 100.0%;">深度: 6.7km 時間: 2025-03-14 18:50:12</div>`)[0];
+                popup_0f304438a4e72c3efcd300e3b6a083bb.setContent(html_c40b8963ca4434d88916df8d92e47af1);
+            
+        
+
+        marker_66b0f35ca14a1e0939f8969358d3a671.bindPopup(popup_0f304438a4e72c3efcd300e3b6a083bb)
+        ;
+
+        
+    
+    
+            marker_66b0f35ca14a1e0939f8969358d3a671.bindTooltip(
+                `<div>
+                     臺東縣政府北北西方  14.8  公里 (位於臺東縣卑南鄉) 芮氏規模: 4.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_66b0f35ca14a1e0939f8969358d3a671.setIcon(icon_b230cbcd46eb1caa3da4d742708bb4d3);
+            
+    
+            var marker_8c39b353e2a2b75f46f708c0bdfe3415 = L.marker(
+                [22.89, 121.09],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_4bf50e2480d50e8fec25660151a3ccf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2628374b2fdd5f7954e2d05577aa613b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c71474ce269b826a68f1983d17d26289 = $(`<div id="html_c71474ce269b826a68f1983d17d26289" style="width: 100.0%; height: 100.0%;">深度: 6.4km 時間: 2025-03-14 05:44:41</div>`)[0];
+                popup_2628374b2fdd5f7954e2d05577aa613b.setContent(html_c71474ce269b826a68f1983d17d26289);
+            
+        
+
+        marker_8c39b353e2a2b75f46f708c0bdfe3415.bindPopup(popup_2628374b2fdd5f7954e2d05577aa613b)
+        ;
+
+        
+    
+    
+            marker_8c39b353e2a2b75f46f708c0bdfe3415.bindTooltip(
+                `<div>
+                     臺東縣政府北北西方  15.8  公里 (位於臺東縣卑南鄉) 芮氏規模: 4.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8c39b353e2a2b75f46f708c0bdfe3415.setIcon(icon_4bf50e2480d50e8fec25660151a3ccf6);
+            
+    
+            var marker_6bb8eff4907639da712c5b8f34769e04 = L.marker(
+                [23.07, 121.54],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_ef8c8a86774b7ff0cdfdb41aa35ca5a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0e5232ebbf8aee6a46a0d15d4ca7265 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7486b34b17bf08fd7a583cb1c80ef6bb = $(`<div id="html_7486b34b17bf08fd7a583cb1c80ef6bb" style="width: 100.0%; height: 100.0%;">深度: 12.5km 時間: 2025-03-13 13:09:37</div>`)[0];
+                popup_b0e5232ebbf8aee6a46a0d15d4ca7265.setContent(html_7486b34b17bf08fd7a583cb1c80ef6bb);
+            
+        
+
+        marker_6bb8eff4907639da712c5b8f34769e04.bindPopup(popup_b0e5232ebbf8aee6a46a0d15d4ca7265)
+        ;
+
+        
+    
+    
+            marker_6bb8eff4907639da712c5b8f34769e04.bindTooltip(
+                `<div>
+                     臺東縣政府東北方  53.0  公里 (位於臺灣東部海域) 芮氏規模: 5.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6bb8eff4907639da712c5b8f34769e04.setIcon(icon_ef8c8a86774b7ff0cdfdb41aa35ca5a1);
+            
+    
+            var marker_e53aefa7964cfc70691c156b41010064 = L.marker(
+                [23.91, 121.45],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_cc1bc29293f6b215697d510689ae9c5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_456082582300d692bb60ceed5febe69c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_387453b8597f6a04870651b82a6b06ed = $(`<div id="html_387453b8597f6a04870651b82a6b06ed" style="width: 100.0%; height: 100.0%;">深度: 19.3km 時間: 2025-03-08 04:43:03</div>`)[0];
+                popup_456082582300d692bb60ceed5febe69c.setContent(html_387453b8597f6a04870651b82a6b06ed);
+            
+        
+
+        marker_e53aefa7964cfc70691c156b41010064.bindPopup(popup_456082582300d692bb60ceed5febe69c)
+        ;
+
+        
+    
+    
+            marker_e53aefa7964cfc70691c156b41010064.bindTooltip(
+                `<div>
+                     花蓮縣政府西南西方  19.3  公里 (位於花蓮縣秀林鄉) 芮氏規模: 4.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e53aefa7964cfc70691c156b41010064.setIcon(icon_cc1bc29293f6b215697d510689ae9c5d);
+            
+    
+            var marker_5cf67ea9574db6012e83ccf414d91bba = L.marker(
+                [23.47, 121.31],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_90d4873a4be61974204b7bc63f889b9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d43e0181c2f2aa7fbb2da8bb4599e92c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5bf3400d4cbb38a604a717614ac3c4c = $(`<div id="html_d5bf3400d4cbb38a604a717614ac3c4c" style="width: 100.0%; height: 100.0%;">深度: 12.6km 時間: 2025-03-06 08:08:44</div>`)[0];
+                popup_d43e0181c2f2aa7fbb2da8bb4599e92c.setContent(html_d5bf3400d4cbb38a604a717614ac3c4c);
+            
+        
+
+        marker_5cf67ea9574db6012e83ccf414d91bba.bindPopup(popup_d43e0181c2f2aa7fbb2da8bb4599e92c)
+        ;
+
+        
+    
+    
+            marker_5cf67ea9574db6012e83ccf414d91bba.bindTooltip(
+                `<div>
+                     花蓮縣政府南南西方  66.0  公里 (位於花蓮縣卓溪鄉) 芮氏規模: 4.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5cf67ea9574db6012e83ccf414d91bba.setIcon(icon_90d4873a4be61974204b7bc63f889b9c);
+            
+    
+            var marker_06c07604528160daad8ee7aa89f5ebcf = L.marker(
+                [23.15, 120.51],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_8dcebe4cb988c2154fa42aea4ae7e85d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e152f842ceabbd2dd017ad042f1a7a37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90242b7bf3fc9c1d7e857fed2ca4bbd9 = $(`<div id="html_90242b7bf3fc9c1d7e857fed2ca4bbd9" style="width: 100.0%; height: 100.0%;">深度: 14.3km 時間: 2025-03-05 21:27:39</div>`)[0];
+                popup_e152f842ceabbd2dd017ad042f1a7a37.setContent(html_90242b7bf3fc9c1d7e857fed2ca4bbd9);
+            
+        
+
+        marker_06c07604528160daad8ee7aa89f5ebcf.bindPopup(popup_e152f842ceabbd2dd017ad042f1a7a37)
+        ;
+
+        
+    
+    
+            marker_06c07604528160daad8ee7aa89f5ebcf.bindTooltip(
+                `<div>
+                     臺南市政府東北東方  37.2  公里 (位於臺南市楠西區) 芮氏規模: 5.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_06c07604528160daad8ee7aa89f5ebcf.setIcon(icon_8dcebe4cb988c2154fa42aea4ae7e85d);
+            
+    
+            var marker_ec30596f7dafda0eea4318252f971ded = L.marker(
+                [23.26, 121.52],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_6f3c7b59fdd683975359eb6f2a7ff124 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eaa6405af0058fde3fb20ee48718af3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_465e89b404fba13cdb92fe69b04a0fb7 = $(`<div id="html_465e89b404fba13cdb92fe69b04a0fb7" style="width: 100.0%; height: 100.0%;">深度: 24.7km 時間: 2025-02-28 13:02:47</div>`)[0];
+                popup_eaa6405af0058fde3fb20ee48718af3d.setContent(html_465e89b404fba13cdb92fe69b04a0fb7);
+            
+        
+
+        marker_ec30596f7dafda0eea4318252f971ded.bindPopup(popup_eaa6405af0058fde3fb20ee48718af3d)
+        ;
+
+        
+    
+    
+            marker_ec30596f7dafda0eea4318252f971ded.bindTooltip(
+                `<div>
+                     臺東縣政府東北方  67.7  公里 (位於臺灣東部海域) 芮氏規模: 4.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ec30596f7dafda0eea4318252f971ded.setIcon(icon_6f3c7b59fdd683975359eb6f2a7ff124);
+            
+    
+            var marker_951733be82822f6fd785125432065201 = L.marker(
+                [23.06, 120.57],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_3ddfb2469ff2c362e7562eaa7d43c2ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6883e30fb3a9a666b918d353892d240b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fa37bb539ae58504508138c959e2823 = $(`<div id="html_7fa37bb539ae58504508138c959e2823" style="width: 100.0%; height: 100.0%;">深度: 13.4km 時間: 2025-02-27 13:01:45</div>`)[0];
+                popup_6883e30fb3a9a666b918d353892d240b.setContent(html_7fa37bb539ae58504508138c959e2823);
+            
+        
+
+        marker_951733be82822f6fd785125432065201.bindPopup(popup_6883e30fb3a9a666b918d353892d240b)
+        ;
+
+        
+    
+    
+            marker_951733be82822f6fd785125432065201.bindTooltip(
+                `<div>
+                     高雄市政府北北東方  55.8  公里 (位於高雄市甲仙區) 芮氏規模: 4.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_951733be82822f6fd785125432065201.setIcon(icon_3ddfb2469ff2c362e7562eaa7d43c2ab);
+            
+    
+            var marker_a8c4b5f4c7bc5dd9c260a27bcb6d7bf6 = L.marker(
+                [24.17, 121.66],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_752a3533ee42d84339b299262eea1502 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65318aa02c2111fe355974ec3ab3b645 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_720e9ee0c3d8634de7f04977af45b7d4 = $(`<div id="html_720e9ee0c3d8634de7f04977af45b7d4" style="width: 100.0%; height: 100.0%;">深度: 13.3km 時間: 2025-02-11 22:04:38</div>`)[0];
+                popup_65318aa02c2111fe355974ec3ab3b645.setContent(html_720e9ee0c3d8634de7f04977af45b7d4);
+            
+        
+
+        marker_a8c4b5f4c7bc5dd9c260a27bcb6d7bf6.bindPopup(popup_65318aa02c2111fe355974ec3ab3b645)
+        ;
+
+        
+    
+    
+            marker_a8c4b5f4c7bc5dd9c260a27bcb6d7bf6.bindTooltip(
+                `<div>
+                     花蓮縣政府北北東方  20.8  公里 (位於花蓮縣近海) 芮氏規模: 4.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a8c4b5f4c7bc5dd9c260a27bcb6d7bf6.setIcon(icon_752a3533ee42d84339b299262eea1502);
+            
+    
+            var marker_e47eeca68ea385e680e250f4a9b410ce = L.marker(
+                [23.25, 120.5],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_3dc4c32720210164d5f2511fc0ee21dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad3bead15e98164967ce6d5fccf1b9af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_506567a86ad6515e70645eeb0750d898 = $(`<div id="html_506567a86ad6515e70645eeb0750d898" style="width: 100.0%; height: 100.0%;">深度: 7.7km 時間: 2025-02-11 15:52:44</div>`)[0];
+                popup_ad3bead15e98164967ce6d5fccf1b9af.setContent(html_506567a86ad6515e70645eeb0750d898);
+            
+        
+
+        marker_e47eeca68ea385e680e250f4a9b410ce.bindPopup(popup_ad3bead15e98164967ce6d5fccf1b9af)
+        ;
+
+        
+    
+    
+            marker_e47eeca68ea385e680e250f4a9b410ce.bindTooltip(
+                `<div>
+                     臺南市政府東北方  42.5  公里 (位於臺南市東山區) 芮氏規模: 4.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e47eeca68ea385e680e250f4a9b410ce.setIcon(icon_3dc4c32720210164d5f2511fc0ee21dd);
+            
+    
+            var marker_4e26640729865be6b0e156afb3bd29c4 = L.marker(
+                [23.16, 120.5],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_485acb41005a849d5175ba33afbc64a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1ac08a6293548d9b90010f5bbd06b62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a60afc3283389b8851eb7800f74f461 = $(`<div id="html_1a60afc3283389b8851eb7800f74f461" style="width: 100.0%; height: 100.0%;">深度: 15.7km 時間: 2025-02-10 10:39:54</div>`)[0];
+                popup_f1ac08a6293548d9b90010f5bbd06b62.setContent(html_1a60afc3283389b8851eb7800f74f461);
+            
+        
+
+        marker_4e26640729865be6b0e156afb3bd29c4.bindPopup(popup_f1ac08a6293548d9b90010f5bbd06b62)
+        ;
+
+        
+    
+    
+            marker_4e26640729865be6b0e156afb3bd29c4.bindTooltip(
+                `<div>
+                     臺南市政府東北東方  37.6  公里 (位於臺南市楠西區) 芮氏規模: 4.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4e26640729865be6b0e156afb3bd29c4.setIcon(icon_485acb41005a849d5175ba33afbc64a4);
+            
+    
+            var marker_b5f949e06379bf44c58759cb2e3309a2 = L.marker(
+                [23.27, 120.57],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_9f443b301084b962ae08f84053988ccb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ffbc3d3fac1d3b6347e4be916bb23901 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b373d27128550398e5453b08c801ca07 = $(`<div id="html_b373d27128550398e5453b08c801ca07" style="width: 100.0%; height: 100.0%;">深度: 14.7km 時間: 2025-02-10 01:39:06</div>`)[0];
+                popup_ffbc3d3fac1d3b6347e4be916bb23901.setContent(html_b373d27128550398e5453b08c801ca07);
+            
+        
+
+        marker_b5f949e06379bf44c58759cb2e3309a2.bindPopup(popup_ffbc3d3fac1d3b6347e4be916bb23901)
+        ;
+
+        
+    
+    
+            marker_b5f949e06379bf44c58759cb2e3309a2.bindTooltip(
+                `<div>
+                     嘉義縣政府東南方  35.2  公里 (位於嘉義縣大埔鄉) 芮氏規模: 4.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b5f949e06379bf44c58759cb2e3309a2.setIcon(icon_9f443b301084b962ae08f84053988ccb);
+            
+    
+            var marker_553b8041bd27ec07422416edc53531a5 = L.marker(
+                [23.28, 120.62],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_65cb86df063aedffb20beb540fb35309 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d9dd325b59d40799d3048cb336855c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bad63d89bb4e05944cdb405259dece4 = $(`<div id="html_7bad63d89bb4e05944cdb405259dece4" style="width: 100.0%; height: 100.0%;">深度: 7.3km 時間: 2025-02-08 00:46:58</div>`)[0];
+                popup_8d9dd325b59d40799d3048cb336855c9.setContent(html_7bad63d89bb4e05944cdb405259dece4);
+            
+        
+
+        marker_553b8041bd27ec07422416edc53531a5.bindPopup(popup_8d9dd325b59d40799d3048cb336855c9)
+        ;
+
+        
+    
+    
+            marker_553b8041bd27ec07422416edc53531a5.bindTooltip(
+                `<div>
+                     嘉義縣政府東南東方  39.0  公里 (位於嘉義縣大埔鄉) 芮氏規模: 5.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_553b8041bd27ec07422416edc53531a5.setIcon(icon_65cb86df063aedffb20beb540fb35309);
+            
+    
+            var marker_cb40215057c6325fda1ea756e0d3efcd = L.marker(
+                [23.81, 121.47],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_ef4c1064ae59a9502b72a4e8f021105c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c58f44077eac953c1b90b302ec64050c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17cc00f78534876955c2b546d5f38b0e = $(`<div id="html_17cc00f78534876955c2b546d5f38b0e" style="width: 100.0%; height: 100.0%;">深度: 13.5km 時間: 2025-02-07 19:56:10</div>`)[0];
+                popup_c58f44077eac953c1b90b302ec64050c.setContent(html_17cc00f78534876955c2b546d5f38b0e);
+            
+        
+
+        marker_cb40215057c6325fda1ea756e0d3efcd.bindPopup(popup_c58f44077eac953c1b90b302ec64050c)
+        ;
+
+        
+    
+    
+            marker_cb40215057c6325fda1ea756e0d3efcd.bindTooltip(
+                `<div>
+                     花蓮縣政府西南方  25.4  公里 (位於花蓮縣鳳林鎮) 芮氏規模: 4.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb40215057c6325fda1ea756e0d3efcd.setIcon(icon_ef4c1064ae59a9502b72a4e8f021105c);
+            
+    
+            var marker_a59fbd1ff7606ece114a0a3506acf945 = L.marker(
+                [23.21, 120.55],
+                {
+}
+            ).addTo(map_4713ce6dd2084c7b0ec2c598c1582620);
+        
+    
+            var icon_73cc0bd87b8686f4423fffa9b39e2435 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "fa-history",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec83f82f4dee7bea87f0eec5690a11ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ac3691629753ea39072031e2acea96a = $(`<div id="html_0ac3691629753ea39072031e2acea96a" style="width: 100.0%; height: 100.0%;">深度: 16.7km 時間: 2025-02-06 07:38:38</div>`)[0];
+                popup_ec83f82f4dee7bea87f0eec5690a11ee.setContent(html_0ac3691629753ea39072031e2acea96a);
+            
+        
+
+        marker_a59fbd1ff7606ece114a0a3506acf945.bindPopup(popup_ec83f82f4dee7bea87f0eec5690a11ee)
+        ;
+
+        
+    
+    
+            marker_a59fbd1ff7606ece114a0a3506acf945.bindTooltip(
+                `<div>
+                     臺南市政府東北東方  44.3  公里 (位於臺南市楠西區) 芮氏規模: 4.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a59fbd1ff7606ece114a0a3506acf945.setIcon(icon_73cc0bd87b8686f4423fffa9b39e2435);
+            
+</script>
+</html>
